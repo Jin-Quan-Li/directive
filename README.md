@@ -22,7 +22,8 @@
 ***特别强调*** (示例：粗斜体)  
 ___特别强调___  (示例：粗斜体)  
 2、代码  
-`<hello world>`  
+`import directive from '@/directive`   
+`Vue.use(directive)`   
 3、代码块高亮  
 #```
 @Override
