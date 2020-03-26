@@ -1,10 +1,11 @@
 一、说明：
 随手写的基于vue的自定义指令
 
-6、列表 
+1、列表 
 1. loading/index.js   
    * loading动画 
    * v-loading
+   * `v-loading.animate 增加动画，v-loading 没有动画，v-loading={color:'#000',font:'110px'} 配置字体颜色 大小 `
 2. waves/index.js   
    * 点击添加水波纹效果
    * v-waves
@@ -18,16 +19,16 @@
    * 输入框输入之后自动获取下一个输入框的焦点 常用于6位验证码、密码框
    * v-enterIntegerNumber
 6. gestures.js   
-   * 点击 v-tap
-   * 滑动 v-swipe
-   * 左滑 v-swipeleft
-   * 右滑 v-swiperight
-   * 上滑 v-swipeup
-   * 下滑 v-swipedown
-   * 长按 v-longtap
+   * 点击 `v-tap`
+   * 滑动 `v-swipe`
+   * 左滑 `v-swipeleft`
+   * 右滑 `v-swiperight`
+   * 上滑 `v-swipeup`
+   * 下滑 `v-swipedown`
+   * 长按 `v-longtap`
 7. lazyload.js   
    * 图片懒加载
-   * v-lazyload=""
+   * `v-lazyload="https://xxx.png"`
 8. points.js   
    * 防连点
    * v-points
