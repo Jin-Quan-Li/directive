@@ -4,17 +4,17 @@
 1、列表 
 1. loading/index.js   
    * loading动画 
-   * v-loading
-   * `v-loading.animate 增加动画，v-loading 没有动画，v-loading={color:'#000',font:'110px'} 配置字体颜色 大小 `
+   * `v-loading`
+   * `v-loading:[`内容加载中...`]=''增加文字描述, v-loading.animate 增加动画，v-loading 没有动画，v-loading={color:'#000',font:'110px'} 配置字体颜色 大小 `
 2. waves/index.js   
    * 点击添加水波纹效果
-   * v-waves
+   * `v-waves`
 3. drag.js   
    * 拖拽指令
-   * v-drag
+   * `v-drag`
 4. clickoutside.js   
    * 点击除当前元素外的事件， 常用于点击空白区域关闭下拉框、模态框等
-   * v-clickoutside
+   * `v-clickoutside`
 5. enterIntegerNumber.js   
    * 输入框输入之后自动获取下一个输入框的焦点 常用于6位验证码、密码框
    * v-enterIntegerNumber
@@ -31,19 +31,19 @@
    * `v-lazyload="https://xxx.png"`
 8. points.js   
    * 防连点
-   * v-points
+   * `v-points`
 9. scroll.js   
-   * 下拉刷新 v-scrollUpdate
-   * 上拉加载更多 v-scrollMore
+   * 下拉刷新 `v-scrollUpdate`
+   * 上拉加载更多 `v-scrollMore`
 10. showTips.js   
    * 文字超出显示...
-   * v-showTips
+   * `v-showTips`
 11. throttle.js   
-   * 防抖 v-antiShake
-   * 节流 v-throttling
+   * 防抖 `v-antiShake`
+   * 节流 `v-throttling`
 12. tickDirective.js   
    * 给目标元素动画滚动到指定偏移位置 如果绑定值为true 则滚动到顶部
-   * v-tickDirective
+   * `v-tickDirective`
 
 
 
