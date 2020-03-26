@@ -24,6 +24,7 @@ ___特别强调___  (示例：粗斜体)
 2、使用  
 #```
 import directive from '@/directive'  
+  
 Vue.use(directive)
 #```  
 3、表格 （建议在表格前空一行，否则可能影响表格无法显示）
