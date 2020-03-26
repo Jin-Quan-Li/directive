@@ -5,7 +5,7 @@
 1. loading/index.js   
    * loading动画 
    * `v-loading`
-   * `v-loading:[`内容加载中...`]=''增加文字描述, v-loading.animate 增加动画，v-loading 没有动画，v-loading={color:'#000',font:'110px'} 配置字体颜色 大小 `
+   * `v-loading:[`内容加载中...`] ='' 增加文字描述, v-loading.animate 增加动画，v-loading 没有动画，v-loading={color:'#000',font:'110px'} 配置字体颜色 大小 `
 2. waves/index.js   
    * 点击添加水波纹效果
    * `v-waves`
@@ -17,7 +17,7 @@
    * `v-clickoutside`
 5. enterIntegerNumber.js   
    * 输入框输入之后自动获取下一个输入框的焦点 常用于6位验证码、密码框
-   * v-enterIntegerNumber
+   * `v-enterIntegerNumber`
 6. gestures.js   
    * 点击 `v-tap`
    * 滑动 `v-swipe`
